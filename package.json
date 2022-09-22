@@ -1,0 +1,23 @@
+{
+  "name": "desafio-23",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "server": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^9.0.4",
+    "dotenv": "^16.0.2",
+    "koa": "^2.13.4",
+    "koa-body": "^5.0.0",
+    "koa-graphql": "^0.12.0",
+    "koa-mount": "^4.0.0",
+    "koa-router": "^12.0.0",
+    "mongoose": "^6.6.1"
+  }
+}
